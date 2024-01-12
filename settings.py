@@ -20,7 +20,11 @@ class Settings:
         self.bullets_allowed = 5
 
         # alien settings
-        self.alien_speed = 1
         self.fleet_drop_speed = 10
         # direction of 1 represents right movement, -1 left
         self.fleet_direction = 1
+
+    def _init_dynamic_settings(self):
+        """intialize settings that change during the game"""
+        self.alien_speed = 1
+        self.alien_points = 50
