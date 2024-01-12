@@ -7,3 +7,5 @@ Once the game starts, aliens will fill the top half of the screen and begin to m
 You have three lives total and you lose a life for every alien ship that a) hits you or b) reaches the bottom of the screen.
 
 If you can manage to destroy all of the aliens in the wave, a faster wave of reinforcements will appear.
+
+Based on chapters from Python Crash Course by Eric Matthes
